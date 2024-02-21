@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+#container{
+    display: flex;
+    height: 30vh;
+    width: 25vw;
+    background-color: white;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    justify-content: space-between;
+    align-items: end;
+    padding: 25px;
+}
+#emoji{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    /* background-color: antiquewhite; */
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+#text{
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    /* background-color: antiquewhite; */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    text-align: center;
+
+}
+.color{
+    color: yellow;
+}
