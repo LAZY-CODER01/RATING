@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: lightblue;
 }
 #container{
     display: flex;
@@ -43,3 +43,12 @@ body{
 .color{
     color: yellow;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+    #container{
+        width: 300px;
+    }
+  }
